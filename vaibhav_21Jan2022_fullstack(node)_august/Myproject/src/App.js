@@ -8,6 +8,7 @@ function App() {
 <a href="/"> Checkout Page </a>
       </header>
       <main>Product Table</main>
+      <footer>@MyTutor.com</footer>
 
     </div>
   );

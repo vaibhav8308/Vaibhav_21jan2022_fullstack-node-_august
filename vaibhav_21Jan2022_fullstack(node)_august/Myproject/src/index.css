@@ -10,15 +10,41 @@ body,
 .container{
   display: grid;
   grid-template-areas: "header"
-  "main";
-  grid-template-rows: 50px 1fr;
+  "main"
+  "footer";
+  grid-template-rows: 50px 1fr 50px;
   grid-template-columns: 1 fr;
+  height: 100%
+}
+a:hover{color:blueviolet}
+body,input,select, textarea{
+  font-size: 16px;
+ 
+
+}
+header a{
+  text-decoration:none ;
+  counter-reset: white;
+  padding: 5px;
 }
 header{
   grid-area: header;
-  background-color: goldenrod;
-  color: rgb(8, 8, 56);
+  background-color: rgb(136, 20, 120);
+  color: rgb(245, 248, 242);
+  display: flex;
+  align-items: center;
+  font-size: 30px;
 }
 main{
   grid-area: main;
 }
+footer{
+  grid-area: footer;
+  background-color: rgb(136, 20, 120);
+  color: rgb(241, 241, 248);
+ display : flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+}
+  
