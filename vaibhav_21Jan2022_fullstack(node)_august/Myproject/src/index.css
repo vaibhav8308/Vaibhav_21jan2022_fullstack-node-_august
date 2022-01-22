@@ -47,4 +47,14 @@ footer{
  align-items: center;
  font-size: 30px;
 }
-  
+  .products{
+    display:flex;
+    flex-wrap: wrap;
+  }
+ .main{
+   flex : 30 600px;
+
+ } 
+ .sidebar{
+   flex: 10 200px;
+ }

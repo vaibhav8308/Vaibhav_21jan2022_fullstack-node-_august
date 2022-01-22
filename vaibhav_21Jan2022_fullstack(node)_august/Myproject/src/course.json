@@ -1,0 +1,24 @@
+{
+    "products":[
+        {"_id" : "1",
+            "image":"/images/course1.png",
+            "title": "Course 1",
+            "description": "Complete JavaScript guide",
+            "price" :  2549.99
+        },
+
+        {"_id" : "2",
+            "image":"/images/course2.png",
+            "title": "Course 2",
+            "description": "Complete React.js guide",
+            "price" : 1025.50
+        },
+        {"_id" : "3",
+            "image":"/images/course3.png",
+            "title": "Course 3",
+            "description": "Complete Node.js guide",
+            "price" : 100
+        }
+
+    ]
+}
