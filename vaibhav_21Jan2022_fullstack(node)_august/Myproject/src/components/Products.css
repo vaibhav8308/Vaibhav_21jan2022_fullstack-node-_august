@@ -8,10 +8,10 @@
     flex-wrap: wrap;
 }
 .courses li{
-    flex: 10 10 290px;
+    flex: 0 10 290px;
     height : 470px;
     padding : 10px;
-    margin: 10px;
+
 }
 .singlecourse{
     display: flex;
