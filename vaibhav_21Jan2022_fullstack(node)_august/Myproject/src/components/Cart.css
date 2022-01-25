@@ -36,3 +36,19 @@
 .total>button{
     flex : 1 ;
 }
+form{width: 100%;}
+.form-container{
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+}
+.form-container li{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+input{
+    padding: 10px;
+    border: 1px black solid;
+    background-color: rgb(217, 197, 236);
+}
