@@ -1,8 +1,10 @@
 
 import React from "react";
+import { Provider } from "react-redux";
 import Cart from "./components/Cart";
 import Products from "./components/Products";
-import course from "./course.json"
+import course from "./course.json";
+import store from "./store";
 
 
 class  App extends React.Component {
@@ -45,6 +47,7 @@ class  App extends React.Component {
 
   render(){
   return (
+
     <div className="container">
       <header>
 <a href="/"> Checkout Page </a>
@@ -65,6 +68,7 @@ class  App extends React.Component {
       <footer>@MyTutor.com</footer>
 
     </div>
+  
   );
 }
 }
